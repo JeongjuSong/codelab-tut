@@ -13,7 +13,6 @@ class App extends React.Component {
                 <button onClick={() => {this.setState({name: 'Jeongju'});}}>Click me</button>
                 <h1>Hello!! {this.state.name}</h1>
             </div>
-
         );
     }
 }
