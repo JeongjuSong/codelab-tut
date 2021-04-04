@@ -10,7 +10,7 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                <button onClick={() => {this.setState({name: 'Jeongju'});}}>Click me</button>
+                <button onClick={() => {this.setState({name: 'JeongJu'});}}>Click me</button>
                 <h1>Hello {this.state.name}</h1>
             </div>
         );
